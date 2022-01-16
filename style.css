@@ -111,6 +111,21 @@ a, button {
 	text-decoration: none;
 	text-align: center;
 }
+.btn-talknow{
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	size: 100px;
+}
+.btn-talknow:hover {
+	outline: none;
+	border-radius: 10px;
+	padding: 15px 25px;
+	transition-duration: .4s;
+}
 .head-container {
 	margin-top: 100px;
 	display: flex;
@@ -424,7 +439,7 @@ a, button {
 	border-top: 5px solid blue;
 }
 .card:nth-child(3){
-	border-top: 5px solid pink;
+	border-top: 5px solid red;
 }
 .card:nth-child(1):hover {
 	box-shadow: inset 0px 0px 10px rgba(0,255,0,0.5),
@@ -435,8 +450,8 @@ a, button {
 				1px 1px 30px rgba(0,0,255,0.5);
 }
 .card:nth-child(3):hover {
-	box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
-				1px 1px 30px rgba(0,255,192,203);
+	box-shadow: inset 0px 0px 10px rgb(255, 0, 0),
+				1px 1px 30px rgb(255, 0, 0);
 }
 .totalcard .card img {
 	width: 100px;
@@ -477,16 +492,16 @@ a, button {
 	margin-left: 90px;
 	align-self: center;
 }
-.btn-roshan:hover {
+.btn-prasad:hover {
 	background: rgba(0,255,0,0.7);
 	color: #fff;
 }
-.btn-akhil:hover {
+.btn-snehal:hover {
 	background: rgba(0,0,255,0.5);
 	color: #fff;
 }
-.btn-yash:hover {
-	background: rgba(0,255,192,203);
+.btn-parth:hover {
+	background: rgb(255, 0, 0);
 	color: #fff;
 }
 .card-title {
