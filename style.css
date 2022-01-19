@@ -433,7 +433,7 @@ a, button {
 					0 0 10px rgba(0,0,0,0.3);
 }
 .card:nth-child(1){
-	border-top: 5px solid green;
+	border-top: 5px solid orange;
 }
 .card:nth-child(2){
 	border-top: 5px solid blue;
@@ -442,8 +442,8 @@ a, button {
 	border-top: 5px solid red;
 }
 .card:nth-child(1):hover {
-	box-shadow: inset 0px 0px 10px rgba(0,255,0,0.5),
-				1px 1px 30px rgba(0,255,0,0.5);
+	box-shadow: inset 0px 0px 10px rgba(255, 140, 0),
+				1px 1px 30px rgba(255, 140, 0);
 }
 .card:nth-child(2):hover {
 	box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
@@ -493,7 +493,7 @@ a, button {
 	align-self: center;
 }
 .btn-prasad:hover {
-	background: rgba(0,255,0,0.7);
+	background: rgba(255, 140, 0);
 	color: #fff;
 }
 .btn-snehal:hover {
