@@ -504,6 +504,10 @@ a, button {
 	background: rgb(255, 0, 0);
 	color: #fff;
 }
+.btn-trial:hover {
+	background: rgb(0, 0, 0);
+	color: #fff;
+}
 .card-title {
 	font-size: 17px;
 	color: #343A40;
